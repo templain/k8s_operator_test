@@ -1,0 +1,6 @@
+apiVersion: samplecontroller.bcnl.work/v1alpha1
+kind: Foo
+metadata:
+  name: foo-sample
+spec:
+  # TODO(user): Add fields here
