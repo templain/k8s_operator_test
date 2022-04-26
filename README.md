@@ -3,7 +3,7 @@
 書籍「実践入門 Kubernetesカスタムコントローラーへの道」を見ながら作成したKubernetesのOperatorのサンプルです。Kubebuilder3.2.0を使用しました。
 
 ## テスト方法
-- kubectl用の設定ファイル(admin.conf)をプロジェクトのルートにコピー
+- kubectl用の設定ファイル(admin.conf)をプロジェクトのルートの下にある.devcontainerフォルダにコピー
 - Visual Studio Codeでリモートコンテナとしてプロジェクトを開く
 - `cd mycontroller`
 - `make install`でCRDをKubernetesクラスタに登録
